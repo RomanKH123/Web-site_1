@@ -1,0 +1,52 @@
+table {
+    background: #f5e8d0; /* Цвет фона таблицы */
+    border-spacing: 0; /* Расстояние между ячеек */
+   }
+.block{
+
+    margin: 0px auto;
+}
+.Shapka{
+    background-color: rgb(92, 167, 167);
+    line-height: 50px;
+    font-weight: 300;
+    
+}
+.Kontent{
+    background-color: rgb(92, 167, 167);
+    line-height: 50px;
+    font-weight: 300;
+    
+    
+   
+    
+}
+.Menu{ background-color: rgb(92, 167, 167);
+    line-height: 50px;
+    font-weight: 300;
+    
+    
+    
+    
+}
+.ilhoga{
+    width : 100px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-left: 1450px;
+}   
+
+.Niz{background-color: rgb(92, 167, 167);
+    line-height: 50px;
+    font-weight: 300;
+}
+.werx{
+    background-color: rgb(92, 167, 92);
+    line-height: 50px;
+    font-weight: 300;
+}
+.niz{
+    background-color: rgb(211, 208, 38);
+    line-height: 50px;
+    font-weight: 300;
+}

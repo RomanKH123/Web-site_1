@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" href = "js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ввод-вывод js</h1>
+    <div class="set_1">
+        <img src = "Снимок экрана 2022-11-14 142757.png" width="510px">
+        <div class="set_2">
+            <p class="name">Введите чисдо X: </p>
+            <input class="but" type="text" id="x">
+            
+        </div>
+        <button onclick="xxx()">Посчитать</button>
+        <script type="text/javascript">
+            function xxx(){
+                var x = parseInt(document.getElementById("x").value);
+                var y;
+                 if (x > 2){
+                 y = Math.tan(x)/Math.sqrt(x);
+                alert(y);
+           }
+           
+            }
+        </script>
+    </div>
+    
+</body>
+</html>

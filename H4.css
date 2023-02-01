@@ -1,0 +1,137 @@
+.iluzia1{
+     background: rgb(23, 152, 212);
+    width: 200px;
+    height: 200px;
+    
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.iluzia1:hover{
+    background: rgb(23, 152, 212);
+   transform: scale(0.8,1);
+   
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.shapka{
+    background: rgb(23, 152, 212);
+    width: 200px;
+    height: 200px;
+    
+   
+}
+.txt{
+    
+    height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+    
+}
+.iluzia2{
+    background: rgb(23, 152, 212);
+   width: 200px;
+   height: 200px;
+   
+ display: flex;
+ align-items: center;
+ justify-content: center
+}
+.iluzia2:hover{
+    background: rgb(23, 152, 212);
+    transform: rotate(30deg);
+ display: flex;
+ align-items: center;
+ justify-content: center
+}
+.iluzia3{
+    background: rgb(23, 152, 212);
+   width: 200px;
+   height: 200px;
+   
+ display: flex;
+ align-items: center;
+ justify-content: center
+}
+.iluzia3:hover{
+    background: rgb(23, 152, 212);
+  transform: scale(1.4);   
+ display: flex;
+ align-items: center;
+ justify-content: center
+}
+.level1{
+    width: 200px;
+    height: 200px;
+    transform: skew(30deg,0);
+}
+.level2{
+    width: 200px;
+    height: 200px;
+    transform: skew(-30deg,0);
+}
+.Saturn{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    left: 400px;
+    
+    top: 600px;
+    transform: translateX(150px);
+    display: flex;
+ align-items: center;
+ justify-content: center
+}
+.Mkrug1{
+    
+    animation: cris 4s linear 0s infinite;
+    left: 400px;
+    position: absolute;
+    top: 600px;
+    
+    
+}
+@keyframes cris {
+    0% {
+        transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    
+}
+
+.merkuriy{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    left: 400px;
+    
+    top: 600px;
+    transform: rotate(45deg) translateX(150px);
+    display: flex;
+ align-items: center;
+ justify-content: center
+}
+.vinera{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    left: 400px;
+    
+    top: 600px;
+    transform: rotate(60deg) translateX(150px);
+    display: flex;
+ align-items: center;
+ justify-content: center
+}
+.okk{
+    left: 0px;
+    position: absolute;
+    top: 1000px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/JavaScript/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Функции js</h1>
+    <div>
+        <div class="set_2">
+            <p>Ваше имя:</p>
+            <input class="but" type="text" id="name">
+        </div>
+        <button onclick="privet()">Привет</button>
+        <p id = "MMM"></p>
+        <div class="text" id = "txt" >
+            <p onclick="lightSelection()"> Я так очарован прелестями ума и образования общества, в особенности 
+                женского, в которое я имел счастье быть принят, что не успел еще подумать о климате, — сказал он.</p>
+            <p >Не выпуская уже аббата и Пьера, Анна Павловна для 
+                удобства наблюдения присоединила их к общему кружку.</p>
+            <p >В это время в гостиную вошло новое лицо. Новое лицо это был молодой князь Андрей Болконский, муж маленькой княгини. Князь Болконский был небольшого роста, 
+                весьма красивый молодой человек с определенными и сухими чертами.</p>
+            <img src = "/img/i (1).webp" width=" 200px" id = "sls">
+            <p onclick="this.style.fontSize='24px',this.style.color = 'red'"> Нажми на меня, я увеличусь</p>
+        </div>
+        <button onclick="app()">Увеличить текст</button>
+        <button onclick="img()">Увеличить изображение</button>
+        <button onclick="fone()">Изменить фон</button>
+
+    </div>
+    <script type="text/javascript">
+        function privet(){
+            var x = document.getElementById("name").value;
+            y = "Привет " + x;
+            document.getElementById("MMM").innerHTML = y;
+        };
+        function app(){
+            document.getElementById("txt").style.fontSize = "30px";
+        };
+        function img(){
+            document.getElementById("sls").style.width = "300px";
+        };
+        function fone(){
+            document.body.style.background = 'red';
+        };
+        function lightSelection() { // вызов функции при клике
+    var userSelection = window.getSelection(); // выделение
+      for(var i = 0; i < userSelection.rangeCount; i++) { // получаем местоположение выделеного текста
+        highlight(userSelection.getRangeAt(i)); // передаем дальше, в другую функцию
+      }
+    }
+    </script>
+</body>
+</html>

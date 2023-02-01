@@ -1,0 +1,56 @@
+body {
+   background-color: aliceblue;
+}
+.icona{
+    width : 100px;
+    border-radius: 20px;
+    
+}   
+.shapka{
+    background: rgb(23, 152, 212);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    
+}
+.mid{
+    background: rgb(177, 212, 23);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.b{
+    text-align: center;
+}
+.button{
+    text-align: center;
+    margin: 3px;
+}
+.spisok{
+    text-align: center;
+    margin: 10px;
+}
+.shapka2{
+    background: rgb(171, 212, 23);
+    border-radius: 10px;
+    display: flex;
+    
+    margin:30px 10px 30px;
+}
+.shapka3{
+    background: rgb(218, 157, 236);
+    border-radius: 10px;
+    display: flex;
+    
+    
+    margin:30px 10px 30px;
+}
+.shapka4{
+    background: rgb(180, 90, 98);
+    border-radius: 10px;
+    display: flex;
+    
+    margin:30px 10px 30px;
+}

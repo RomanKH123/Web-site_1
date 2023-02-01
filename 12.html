@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slider</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<style type="text/css">
+.name {float:center; color:blue;}
+</style>
+</head>
+
+<body>
+<h1 class="name" ><font size="7"> Выбирите вашего кота </font></h1>
+<style>
+html,
+body {
+height: 100%;
+font-size: 15px;
+
+}
+
+.swiper {
+width: 1000px;
+height: 90%;
+
+}
+
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.swiper-slide img {
+width: 58%;
+object-fit: cover;
+
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+right: 140px !important;
+left: auto;
+color: rgb(31, 31, 31);
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+left: 140px !important;
+right: auto;
+color: rgb(31, 31, 31);
+}
+</style>
+
+<div class="swiper mySwiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide"><img src="/i.webp"></div>
+<div class="swiper-slide"><img src="/1651168781_13-phonoteka-org-p-oboi-na-rabochii-stol-koti-prikolnie-krasi-14.jpg"></div>
+<div class="swiper-slide"><img src="/post_5da8857ed2bed.jpeg"></div>
+<div class="swiper-slide"><img src="/i.webp"></div>
+<div class="swiper-slide"><img src="/kot_morda_vzglyad_56632_3840x2400.jpg"></div>
+</div>
+<div class="swiper-pagination"></div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+
+<script>
+var swiper = new Swiper(".mySwiper", {
+spaceBetween: 30,
+navigation: {
+nextEl: ".swiper-button-next",
+prevEl: ".swiper-button-prev",
+},
+pagination: {
+el: ".swiper-pagination",
+},
+mousewheel: true,
+keyboard: true,
+});
+</script>
+</body>
+
+</html>
